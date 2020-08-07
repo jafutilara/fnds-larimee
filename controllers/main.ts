@@ -47,3 +47,13 @@ export async function second<T> (req: any, reply: any) {
 export async function icon<T> (req: any, reply: any) {
     reply.sendFile(path.resolve(`${dir}favicon.ico`));
 }
+
+export async function sl1(req: any, reply: any) {
+    reply.sendFile(path.resolve(`${dir}Slider1.jpeg`));
+}
+export async function sl2(req: any, reply: any) {
+    reply.sendFile(path.resolve(`${dir}Slider2.jpeg`));
+}
+export async function sl3(req: any, reply: any) {
+    reply.sendFile(path.resolve(`${dir}Slider3.jpeg`));
+}

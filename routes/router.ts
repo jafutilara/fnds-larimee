@@ -23,3 +23,6 @@ router.get('/scripts/main', _.mainJs);
 router.get('/media/first', _.first);
 router.get('/media/second', _.second);
 router.get('/assets/icon', _.icon);
+router.get('/slider1.jpeg', _.sl1);
+router.get('/slider2.jpeg', _.sl2);
+router.get('/slider3.jpeg', _.sl3);
