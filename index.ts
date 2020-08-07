@@ -16,6 +16,6 @@ server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({ extended: true }));
 server.use(logger('dev'));
 
-Promise.resolve(server.listen(8080)).then( async () => {
+Promise.resolve(server.listen(process.env.PORT)).then( async () => {
     console.log(`Server started... ${chalk.bold.green("[OK]")}`);
 });
